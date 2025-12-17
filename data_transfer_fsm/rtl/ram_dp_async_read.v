@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module ram_dp_async_read
 #(parameter w=8, parameter d=16, parameter d_log=$clog2(d))
 (

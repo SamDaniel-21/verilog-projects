@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module top_fsm( input clk, input rst_n, input [7:0]data_wr, input wr_en, input [4:0]wr_add, input [3:0]rd_add, input op_mode, output [15:0]data_out, 
 output reg done
 );

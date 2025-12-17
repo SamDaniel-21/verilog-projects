@@ -106,6 +106,12 @@ initial begin
     end
     $display("Cases =%d\tSuccess =%d\tFailure =%d\tSuccess rate =%d", cases,success, failure, (success/cases)*100 );
 end
-          
-    
+
+initial begin
+
+	#1000;
+	$display("Simulation has finished");
+	$finish;
+end
+
 endmodule
