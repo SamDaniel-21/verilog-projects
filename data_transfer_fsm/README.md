@@ -15,4 +15,8 @@ verified using Vivado XSIM.
 - 100% pass rate
 
 ## Simulation
-From the sim/ directory:
+
+Run the simulation from the `sim/` directory using Vivado XSIM:
+
+```bash
+vivado -mode tcl -source run_xsim.tcl
